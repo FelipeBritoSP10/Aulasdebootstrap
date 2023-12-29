@@ -37,11 +37,17 @@
               <button class="portfolio"><a href="https://www.hostinger.com.br/tutoriais/o-que-e-bootstrap">O que é BootStrap?</button></a>
             </div>
             <br>
-            <center>
-              <div class="action__btns">
-                <button class="portfolio"><a href="https://www.instagram.com/lipe.sp.10/">Meu Instagram</button>
-                </div>
-            </center>
+                <a href="https://www.instagram.com/lipe.sp.10/" target="_blank"
+                  class="btn-instagram">
+                <img src="instagram.png" alt="instagram" width="70px" height="70px"
+                title="Quero falar sobre as aulas">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=9181784689" target="_blank"
+                class="btn-whatsapp">
+                <img src="whatsapp.png" alt="whatsapp" width="70px" height="70px"
+                title="Quero falar sobre as aulas">
+              </a>
+            </a>
             <br>
           </div>
           <div class="image">
@@ -103,6 +109,12 @@ nav .logo a {
 nav .logo a:hover {
   color: var(--primary-color-dark);
 }
+
+.btn-whatsapp {
+text-decoration: none;
+ z-index: 1;
+position: fixed;
+        }
 
 nav .checkbox {
   display: none;
